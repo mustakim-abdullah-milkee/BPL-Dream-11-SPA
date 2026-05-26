@@ -1,6 +1,7 @@
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/NavBar/NavBar";
+import PlayerButtonGroup from "./components/PlayerButtonGroup/PlayerButtonGroup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     >
       <NavBar />
       <Hero />
+      <PlayerButtonGroup />
     </div>
   );
 }

@@ -12,7 +12,7 @@ const NavBar = () => {
       <div
         className="
           flex justify-between
-          px-3
+          mb-6
           bg-base-100
           shadow-sm
           navbar

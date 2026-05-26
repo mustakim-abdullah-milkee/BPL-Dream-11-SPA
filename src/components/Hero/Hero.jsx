@@ -1,16 +1,39 @@
 import { Fragment } from "react";
 import bannerImage from "../../assets/banner-main.png"
+import bannerShadowbottom from "../../assets/grad-bottom.png"
+import bannerShadowtop from "../../assets/grad-top.png"
 const Hero = () => {
   return (
     <Fragment>
       <div
         className="
-          flex flex-col justify-center items-center
-          p-16 space-y-6 my-6
+          relative flex flex-col justify-center items-center
+          p-16 space-y-6 mb-24
           bg-[#131313]
           rounded-3xl
         "
       >
+        <div>
+          <img
+            className="
+              absolute bottom-0 left-0
+              rounded-3xl
+            "
+            src={bannerShadowbottom}
+            alt=""
+          ></img>
+        </div>
+
+        <div>
+          <img
+            className="
+              absolute top-0 right-0
+              rounded-3xl
+            "
+            src={bannerShadowtop}
+            alt=""
+          ></img>
+        </div>
         <div
           className="
 
@@ -47,19 +70,24 @@ const Hero = () => {
             p-2
             bg-white/5
             rounded-2xl border border-[#E7FE29]
+            hover:cursor-pointer
           "
         >
-          <button
-            className="
-              px-5 py-3.5
-              font-bold text-4 text-[#131313]
-              bg-[#E7FE29]
-              rounded-2xl
-            "
-          >
-            Claim Free Credit
-          </button>
+          
+            <button
+              className="
+                px-5 py-3.5
+                font-bold text-4 text-[#131313]
+                bg-[#E7FE29]
+                rounded-2xl
+                hover:cursor-pointer
+              "
+            >
+              Claim Free Credit
+            </button>
+
         </div>
+        
       </div>
     </Fragment>
   );

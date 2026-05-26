@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Ben Stokes",
+    "nationality": "England",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm fast-medium",
+    "rating": 89,
+    "price": 14500000,
+    "is_all_rounder": true
+  },
+  {
+    "name": "Virat Kohli",
+    "nationality": "India",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm medium",
+    "rating": 92,
+    "price": 16000000,
+    "is_all_rounder": false
+  },
+  {
+    "name": "Rashid Khan",
+    "nationality": "Afghanistan",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm leg-break",
+    "rating": 88,
+    "price": 13000000,
+    "is_all_rounder": true
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "nationality": "India",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm fast",
+    "rating": 94,
+    "price": 15000000,
+    "is_all_rounder": false
+  },
+  {
+    "name": "Glenn Maxwell",
+    "nationality": "Australia",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off-break",
+    "rating": 86,
+    "price": 11000000,
+    "is_all_rounder": true
+  }
+]
